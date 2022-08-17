@@ -34,3 +34,52 @@ li {
   padding: 200px;
   margin-left: 150px;
 }
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  color: white;
+}
+
+.form {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 20px;
+  margin-left: 500px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 300px;
+  padding: 4px;
+  height: 25px;
+}
+
+.form input [type="text"] {
+  border: transparent;
+  background-color: transparent;
+  width: 400px;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.form input [type="text"]:focus {
+  outline: none;
+}
