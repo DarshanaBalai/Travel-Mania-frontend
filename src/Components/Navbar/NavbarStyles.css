@@ -10,6 +10,13 @@
 
 li {
   padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
 }
 
 .backgroundMain {
@@ -65,7 +72,7 @@ li {
   border-radius: 8px;
   margin: 20px;
   margin-left: 500px;
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
   max-width: 300px;
   padding: 4px;
