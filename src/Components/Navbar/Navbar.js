@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./NavbarStyles.css";
 import video from "../../images/video.mp4";
 import { FcSearch } from "react-icons/fc";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const videoEl = useRef(null);
@@ -17,6 +18,10 @@ function Navbar() {
   useEffect(() => {
     attemptPlay();
   }, []);
+
+  const activeStyle = {
+    color: "red",
+  };
 
   return (
     <>
@@ -35,13 +40,34 @@ function Navbar() {
       <div>
         <ul className="Navbar">
           <li>
-            <a href="/home">Home</a>
+            {/* <a href="/home">Home</a> */}
+            {/* <NavLink to="/">Home</NavLink>  */}
+            <NavLink
+              //   className="link"
+              to="/home"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <a href="/login">Login</a>
+            {/* <NavLink to="/login">Login</NavLink> */}
+            <NavLink
+              //   className="link"
+              to="/login"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              Login
+            </NavLink>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <NavLink
+              //   className="link"
+              to="/contact"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
