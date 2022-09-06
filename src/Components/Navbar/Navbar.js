@@ -12,6 +12,21 @@ function Navbar() {
   return (
     <>
       <div>
+        <form className="form">
+          <input
+            id="searchField"
+            type="text"
+            placeholder="Search Destinations"
+          />
+
+          <div>
+            <button className="searchButton">
+              <FcSearch className="icon" />
+            </button>
+          </div>
+        </form>
+      </div>
+      <div>
         <ul className="Navbar">
           <li>
             <NavLink

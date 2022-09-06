@@ -1,0 +1,21 @@
+.contact {
+  width: 30%;
+  align-items: center;
+  background-color: rgb(92, 65, 155);
+  margin: 20px;
+  padding: 30px;
+  margin-left: 500px;
+  padding-bottom: 1px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.bg {
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}

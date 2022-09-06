@@ -1,3 +1,10 @@
+.header {
+  color: rgb(127, 128, 187);
+  background-color: rgb(32, 32, 65);
+  margin-bottom: 0;
+  padding: 0;
+}
+
 .Navbar {
   width: 100%;
   height: 80px;
@@ -5,7 +12,7 @@
   justify-content: right;
   align-items: left;
   position: absolute;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   z-index: 100;
 }
 
@@ -17,30 +24,30 @@ li {
 
 li a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
-.backgroundMain {
+/* .backgroundMain {
   width: 100;
   height: 100vh;
   position: relative;
-}
+} */
 
-.heading {
+/* .heading {
   position: absolute;
   color: white;
   white-space: pre-line;
   text-align: center;
   padding: 200px;
   margin-left: 150px;
-}
+} */
 
-.overlay {
+/* .overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.1);
-}
+} */
 
-.content {
+/* .content {
   position: absolute;
   top: 0;
   height: 100%;
@@ -52,9 +59,9 @@ li a {
   margin: auto;
   padding: 1rem;
   color: white;
-}
+} */
 
-.form {
+/* .form {
   position: absolute;
   display: flex;
   background-color: white;
@@ -70,9 +77,9 @@ li a {
   max-width: 300px;
   padding: 4px;
   height: 25px;
-}
+} */
 
-.form input [type="text"] {
+/* .form input [type="text"] {
   border: transparent;
   background-color: transparent;
   width: 400px;
@@ -82,4 +89,4 @@ li a {
 
 .form input [type="text"]:focus {
   outline: none;
-}
+} */

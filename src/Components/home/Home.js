@@ -26,20 +26,7 @@ function Home() {
 
   return (
     <>
-      <div>
-        <form className="form">
-          <div>
-            <input type="text" placeholder="Search Destinations" />
-          </div>
-          <div>
-            <button>
-              <FcSearch className="icon" />
-            </button>
-          </div>
-        </form>
-      </div>
-
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="backgroundMain">
         <video
           autoPlay
@@ -52,7 +39,7 @@ function Home() {
           ref={videoEl}
         ></video>
       </div>
-      <div className="overlay"></div>
+      {/* <div className="overlay"></div> */}
       <div className="content">
         <h1>"Make your Vacation Planning easy with us"</h1>
         <h2>&</h2>

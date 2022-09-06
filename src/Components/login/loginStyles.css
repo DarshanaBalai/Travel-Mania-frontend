@@ -1,112 +1,48 @@
-/* * {
-  box-sizing: border-box;
-} */
-
-/* .page {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-} */
-
-.container {
+.Auth-form-container {
   background-image: url("../../images/login.jpg");
-  /* margin-top: 100px;
-  margin-left: 500px; */
-  background-size: cover;
-  height: 100vh;
-  background-repeat: no-repeat;
-  position: relative;
   background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
-.cover {
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
   background-color: white;
-  width: 20em;
-  height: 25em;
-  position: relative;
-  border-radius: 1em;
-  box-shadow: 0 0.188em 1.55em rgb(156, 156, 156);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  border: 20px;
 }
 
-.login {
-  color: rgb(19, 20, 80);
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
-.alt-login {
-  width: 0.6%;
-  height: 3em;
-  display: flex;
-  align-items: center;
-}
-
-.alt-login div {
-  width: 65%;
-  height: 90%;
-  border-radius: 0.25em;
-  cursor: pointer;
-}
-
-input {
-  border: none;
-  background-color: rgb(229, 226, 226);
-  height: 4em;
-  width: 80%;
-  border-radius: 0.25em;
+.Auth-form-title {
   text-align: center;
-  padding: 2em;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
 }
 
-input:focus {
-  outline-color: rgb(19, 20, 80);
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
 }
 
-.login-btn {
-  width: 40%;
-  height: 3em;
-  background-color: rgb(24, 29, 77);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  border-radius: 0.25em;
-  cursor: pointer;
-  color: white;
+.loginGoogle {
+  text-align: center;
+  border: none;
 }
 
-.login-btn:hover {
-  transform: scale(1.25);
-}
-
-.text {
-  position: relative;
-  bottom: -2em;
-}
-
-.hide {
-  position: absolute;
-  transform: scale(0);
-}
-
-.login-popup {
-  position: absolute;
-  height: 20em;
-  width: 20em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.25em;
-  background-color: black;
-  color: white;
-  bottom: 0;
-  transform: scale(1);
-  transition: 1.5s;
+.btn btn-primary {
+  color: #ffffff;
 }

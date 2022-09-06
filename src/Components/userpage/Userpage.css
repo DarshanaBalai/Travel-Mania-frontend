@@ -1,7 +1,36 @@
 .buttons {
-  margin-top: 200px;
-  color: aquamarine;
-  margin-left: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 
+.createButton {
   padding: 20px;
+}
+
+.storeButton {
+  padding: 20px;
+}
+
+.backgroundimage {
+  background-image: url("../../images/images\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.account {
+  height: 1.25em;
+  width: 1.25em;
+  margin-left: 1015px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.45rem;
+}
+
+.welcome {
+  color: white;
 }
