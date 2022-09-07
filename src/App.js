@@ -26,11 +26,11 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1>Triptomania</h1>
+        <h1 style={{ marginBotton: 0 }}>Triptomania </h1>
       </header>
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/userpage" element={<Userpage />} />

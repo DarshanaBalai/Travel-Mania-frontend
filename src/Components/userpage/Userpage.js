@@ -4,6 +4,9 @@ import "./Userpage.css";
 import Createpage from "../CreatePage/Createpage";
 import { RiAccountBoxFill } from "react-icons/ri";
 import romePic from "../../images/rome.jpg";
+import praguePic from "../../images/prague1.jpg";
+import parisPic from "../../images/paris1.jpg";
+import switzPic from "../../images/switzerland.jpg";
 
 function Userpage() {
   const activeStyle = {
@@ -68,9 +71,9 @@ function Userpage() {
           </li>
           <li>
             <div className="cardMemories" style={{ minHeight: 300 }}>
-              <img src={romePic} className="card-img-top" alt="..." />
+              <img src={praguePic} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Rome</h5>
+                <h5 className="card-title">Prague</h5>
                 <p className="card-text">
                   Date: 19-12-2021
                   <br />
@@ -84,9 +87,9 @@ function Userpage() {
           </li>
           <li>
             <div className="cardMemories" style={{ minHeight: 300 }}>
-              <img src={romePic} className="card-img-top" alt="..." />
+              <img src={parisPic} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Rome</h5>
+                <h5 className="card-title">Paris</h5>
                 <p className="card-text">
                   Date: 19-12-2021
                   <br />
@@ -101,9 +104,9 @@ function Userpage() {
 
           <li>
             <div className="cardMemories" style={{ minHeight: 300 }}>
-              <img src={romePic} className="card-img-top" alt="..." />
+              <img src={switzPic} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Rome</h5>
+                <h5 className="card-title">Switzerland</h5>
                 <p className="card-text">
                   Date: 19-12-2021
                   <br />

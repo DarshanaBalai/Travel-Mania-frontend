@@ -30,7 +30,7 @@ function Navbar() {
         <ul className="Navbar">
           <li>
             <NavLink
-              to="/home"
+              to="/"
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               Home
