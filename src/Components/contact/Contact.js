@@ -4,6 +4,7 @@ import "./ContactStyles.css";
 function Contact() {
   return (
     <div className="bg">
+      <h2 className="contactUs">Contact Us</h2>
       <form>
         <div className="contact">
           <div className="form-outline mb-4">

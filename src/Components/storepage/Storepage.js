@@ -32,14 +32,14 @@ function Storepage() {
                     <li>
                       <div className="card">
                         <div className="card-body">
-                          <h5 className="card-title">Add To Do List</h5>
+                          <h5 className="card-title">Add photos</h5>
                           <div className="buttons">
                             <div className="buttonPlus">
                               <button
                                 type="button"
                                 className="btn btn-outline-secondary"
                                 onClick={() => {
-                                  setActiveText(true);
+                                  setBooking(true);
                                 }}
                               >
                                 <BsPlusSquareFill className="icon" />
@@ -50,7 +50,7 @@ function Storepage() {
                                 type="button"
                                 className="btn btn-outline-secondary"
                                 onClick={() => {
-                                  setActiveText(false);
+                                  setBooking(false);
                                 }}
                               >
                                 <BsSave className="icon" />

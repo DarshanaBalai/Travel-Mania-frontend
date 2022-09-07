@@ -34,3 +34,21 @@
 .welcome {
   color: white;
 }
+
+.cardMemories {
+  background-color: aliceblue;
+  padding: 5px;
+  margin-bottom: 1px;
+  margin-left: 4px;
+  margin-right: 10px;
+  width: 75%;
+}
+
+.memoriesCardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card-text {
+  color: rgb(26, 16, 70);
+}

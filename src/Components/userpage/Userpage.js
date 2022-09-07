@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./Userpage.css";
 import Createpage from "../CreatePage/Createpage";
 import { RiAccountBoxFill } from "react-icons/ri";
+import romePic from "../../images/rome.jpg";
 
 function Userpage() {
   const activeStyle = {
@@ -47,31 +48,72 @@ function Userpage() {
           </NavLink>
         </div>
       </div>
+      <div>
+        <ul className="memoriesCardContainer">
+          <li>
+            <div className="cardMemories" style={{ minHeight: 300 }}>
+              <img src={romePic} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Rome</h5>
+                <p className="card-text">
+                  Date: 19-12-2021
+                  <br />
+                  Days: 5days
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Visit
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="cardMemories" style={{ minHeight: 300 }}>
+              <img src={romePic} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Rome</h5>
+                <p className="card-text">
+                  Date: 19-12-2021
+                  <br />
+                  Days: 5days
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Visit
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="cardMemories" style={{ minHeight: 300 }}>
+              <img src={romePic} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Rome</h5>
+                <p className="card-text">
+                  Date: 19-12-2021
+                  <br />
+                  Days: 5days
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Visit
+                </a>
+              </div>
+            </div>
+          </li>
 
-      <div className="dropdown">
-        <button
-          className="btn btn-secondary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Dropdown button
-        </button>
-        <ul className="dropdown-menu">
           <li>
-            <a className="dropdown-item" href="#">
-              Action
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#">
-              Another action
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#">
-              Something else here
-            </a>
+            <div className="cardMemories" style={{ minHeight: 300 }}>
+              <img src={romePic} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Rome</h5>
+                <p className="card-text">
+                  Date: 19-12-2021
+                  <br />
+                  Days: 5days
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Visit
+                </a>
+              </div>
+            </div>
           </li>
         </ul>
       </div>

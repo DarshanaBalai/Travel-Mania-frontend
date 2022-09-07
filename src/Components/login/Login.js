@@ -45,6 +45,7 @@ export default function (props) {
         .then((response) => {
           console.log("User token: " + response.data.accessToken);
           console.log("Name:" + response.data.name);
+
           localStorage.setItem("token", response.data.accessToken);
           localStorage.setItem("name", response.data.name);
         })
@@ -93,6 +94,7 @@ export default function (props) {
         .then((response) => {
           console.log("User token: " + response.data.accessToken);
           console.log("Name:" + response.data.name);
+
           localStorage.setItem("token", response.data.accessToken);
           localStorage.setItem("name", response.data.name);
         })
@@ -142,14 +144,14 @@ export default function (props) {
               />
             </div>
             <div className="d-grid gap-2 mt-3">
-              <button type="submit" className="btn btn-primary">
-                <NavLink
-                  to="/Userpage"
-                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                >
+              <NavLink
+                to="/Userpage"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                <button type="submit" className="btn btn-primary">
                   Login
-                </NavLink>
-              </button>
+                </button>
+              </NavLink>
             </div>
 
             <p className="text-center mt-2">
